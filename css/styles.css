@@ -21,6 +21,17 @@ body {
   margin-bottom: 3%; }
 
 .img-responsive {
-  margin-bottom: 8%; }
+  margin-bottom: 5%; }
+
+#about {
+  text-align: center; }
+  #about h2 {
+    color: #060f4f; }
+  #about p {
+    text-align: left; }
+
+#contact {
+  text-align: center;
+  background: #b82601; }
 
 /*# sourceMappingURL=styles.css.map */

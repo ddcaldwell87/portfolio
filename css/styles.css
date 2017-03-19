@@ -7,5 +7,20 @@ body {
   background-size: cover;
   background-position: center;
   height: 1030px; }
+  .jumbotron h1 {
+    color: white; }
+  .jumbotron h3 {
+    color: white; }
+
+#myWork {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 4%; }
+
+.row {
+  margin-bottom: 3%; }
+
+.img-responsive {
+  margin-bottom: 8%; }
 
 /*# sourceMappingURL=styles.css.map */

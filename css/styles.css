@@ -1,0 +1,11 @@
+body {
+  padding-top: 50px; }
+
+.jumbotron {
+  background-image: url("../img/rocks.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1030px; }
+
+/*# sourceMappingURL=styles.css.map */

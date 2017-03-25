@@ -1,16 +1,49 @@
+$primary: #837866
+$secondary: #1d1a15
+
 body
   padding-top: 50px
+  font-family: 'Lato', sans-serif
+
+.btn
+  border-radius: 0%
+
+.btn:focus
+  outline: none
+
+.btn-primary
+  background: $primary
+
+.btn-primary:active
+  background: $secondary
+
+.navbar
+  a
+    color: $primary !important
+
+.navbar-default
+  background: $secondary
+  border: none
+  .navbar-toggle
+    background: $secondary !important
+    border: none
+    .icon-bar
+      background: $primary
+
+.navbar-toggle:focus
+  outline: none
+
+.navbar-collapse
+  border: none
 
 .jumbotron
   background-image: url("../img/rocks.jpg")
   background-repeat: no-repeat
   background-size: cover
   background-position: center
-  height: 1030px
-  h1
-    color: white
-  h3
-    color: white
+  height: 850px
+  .page-header
+    color: #E2E1E0
 
 #myWork
   text-align: center
@@ -21,15 +54,38 @@ body
   margin-bottom: 3%
 
 .img-responsive
-  margin-bottom: 5%
+  margin-bottom: 8%
 
 #about
   text-align: center
-  h2
-    color: #060f4f
+  background: $primary
+  padding-top: 6%
+  padding-bottom: 6%
+  h1
+    color: $secondary
+    margin-bottom: 8%
   p
     text-align: left
+    font-size: 1.5em
+    letter-spacing: 2px
+    line-height: 1.5em
+    color: $secondary
 
 #contact
   text-align: center
-  background: #b82601
+  padding-top: 4%
+  padding-bottom: 4%
+  h2
+    margin-bottom: 1%
+  .modal-content
+    border-radius: 0%
+  .form-control
+    border-radius: 0%
+  textarea
+    resize: none
+
+footer
+  background: #984b43
+  padding-top: 8%
+  padding-bottom: 8%
+  text-align: center

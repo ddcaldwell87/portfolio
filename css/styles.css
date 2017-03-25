@@ -1,16 +1,45 @@
 body {
-  padding-top: 50px; }
+  padding-top: 50px;
+  font-family: "Lato", sans-serif; }
+
+.btn {
+  border-radius: 0%; }
+
+.btn:focus {
+  outline: none; }
+
+.btn-primary {
+  background: #837866; }
+
+.btn-primary:active {
+  background: #1d1a15; }
+
+.navbar a {
+  color: #837866 !important; }
+
+.navbar-default {
+  background: #1d1a15;
+  border: none; }
+  .navbar-default .navbar-toggle {
+    background: #1d1a15 !important;
+    border: none; }
+    .navbar-default .navbar-toggle .icon-bar {
+      background: #837866; }
+
+.navbar-toggle:focus {
+  outline: none; }
+
+.navbar-collapse {
+  border: none; }
 
 .jumbotron {
   background-image: url("../img/rocks.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 1030px; }
-  .jumbotron h1 {
-    color: white; }
-  .jumbotron h3 {
-    color: white; }
+  height: 850px; }
+  .jumbotron .page-header {
+    color: #E2E1E0; }
 
 #myWork {
   text-align: center;
@@ -21,17 +50,40 @@ body {
   margin-bottom: 3%; }
 
 .img-responsive {
-  margin-bottom: 5%; }
+  margin-bottom: 8%; }
 
 #about {
-  text-align: center; }
-  #about h2 {
-    color: #060f4f; }
+  text-align: center;
+  background: #837866;
+  padding-top: 6%;
+  padding-bottom: 6%; }
+  #about h1 {
+    color: #1d1a15;
+    margin-bottom: 8%; }
   #about p {
-    text-align: left; }
+    text-align: left;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+    color: #1d1a15; }
 
 #contact {
   text-align: center;
-  background: #b82601; }
+  padding-top: 4%;
+  padding-bottom: 4%; }
+  #contact h2 {
+    margin-bottom: 1%; }
+  #contact .modal-content {
+    border-radius: 0%; }
+  #contact .form-control {
+    border-radius: 0%; }
+  #contact textarea {
+    resize: none; }
+
+footer {
+  background: #984b43;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */

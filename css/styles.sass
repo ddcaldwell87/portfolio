@@ -1,20 +1,21 @@
 $primary: #837866
 $secondary: #1d1a15
+$third: #665549
 
 body
   padding-top: 50px
-  font-family: 'Lato', sans-serif
-
-.btn
-  border-radius: 0%
-
-.btn:focus
-  outline: none
+  font-family: 'Varela Round', sans-serif
 
 .btn-primary
   background: $primary
 
+.btn-primary:hover
+  background: $third
+
 .btn-primary:active
+  background: $secondary !important
+
+.btn-primary:focus
   background: $secondary
 
 .navbar
@@ -76,11 +77,7 @@ body
   padding-top: 4%
   padding-bottom: 4%
   h2
-    margin-bottom: 1%
-  .modal-content
-    border-radius: 0%
-  .form-control
-    border-radius: 0%
+    margin-bottom: 3%
   textarea
     resize: none
 

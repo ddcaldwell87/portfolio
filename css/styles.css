@@ -1,17 +1,17 @@
 body {
   padding-top: 50px;
-  font-family: "Lato", sans-serif; }
-
-.btn {
-  border-radius: 0%; }
-
-.btn:focus {
-  outline: none; }
+  font-family: "Varela Round", sans-serif; }
 
 .btn-primary {
   background: #837866; }
 
+.btn-primary:hover {
+  background: #665549; }
+
 .btn-primary:active {
+  background: #1d1a15 !important; }
+
+.btn-primary:focus {
   background: #1d1a15; }
 
 .navbar a {
@@ -72,11 +72,7 @@ body {
   padding-top: 4%;
   padding-bottom: 4%; }
   #contact h2 {
-    margin-bottom: 1%; }
-  #contact .modal-content {
-    border-radius: 0%; }
-  #contact .form-control {
-    border-radius: 0%; }
+    margin-bottom: 3%; }
   #contact textarea {
     resize: none; }
 

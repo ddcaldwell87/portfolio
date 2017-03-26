@@ -1,30 +1,38 @@
 body {
   padding-top: 50px;
-  font-family: "Lato", sans-serif; }
+  font-family: "Varela Round", sans-serif;
+  background: #EEEFE5;
+  color: #4C5B4E; }
 
-.btn {
-  border-radius: 0%; }
-
-.btn:focus {
-  outline: none; }
+.btn-primary:focus {
+  outline: none;
+  background: #4C5B4E;
+  color: #EEEFE5 !important; }
 
 .btn-primary {
-  background: #837866; }
+  background: #8DAA91;
+  border: none;
+  color: #EEEFE5; }
 
 .btn-primary:active {
-  background: #1d1a15; }
+  background: #4C5B4E !important;
+  color: #EEEFE5 !important; }
+
+.btn-primary:hover {
+  background: #728975;
+  color: #EEEFE5; }
 
 .navbar a {
-  color: #837866 !important; }
+  color: #EEEFE5 !important; }
 
 .navbar-default {
-  background: #1d1a15;
+  background: #4C5B4E;
   border: none; }
   .navbar-default .navbar-toggle {
-    background: #1d1a15 !important;
+    background: #4C5B4E !important;
     border: none; }
     .navbar-default .navbar-toggle .icon-bar {
-      background: #837866; }
+      background: #8DAA91; }
 
 .navbar-toggle:focus {
   outline: none; }
@@ -33,18 +41,23 @@ body {
   border: none; }
 
 .jumbotron {
-  background-image: url("../img/rocks.jpg");
+  background-image: url("../img/mtn.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 850px; }
+  height: 725px; }
   .jumbotron .page-header {
-    color: #E2E1E0; }
+    color: #4C5B4E; }
 
-#myWork {
+#portfolio h1 {
   text-align: center;
   margin-top: 5%;
   margin-bottom: 4%; }
+#portfolio .brackets {
+  margin-top: -5%;
+  width: 100px;
+  height: 100px;
+  color: #4C5B4E; }
 
 .row {
   margin-bottom: 3%; }
@@ -54,36 +67,53 @@ body {
 
 #about {
   text-align: center;
-  background: #837866;
+  background: #8DAA91;
   padding-top: 6%;
   padding-bottom: 6%; }
   #about h1 {
-    color: #1d1a15;
     margin-bottom: 8%; }
   #about p {
     text-align: left;
     font-size: 1.5em;
     letter-spacing: 2px;
     line-height: 1.5em;
-    color: #1d1a15; }
+    margin: 2%; }
 
 #contact {
   text-align: center;
   padding-top: 4%;
   padding-bottom: 4%; }
   #contact h2 {
-    margin-bottom: 1%; }
+    margin-bottom: 5%; }
   #contact .modal-content {
-    border-radius: 0%; }
+    background: #EEEFE5; }
   #contact .form-control {
-    border-radius: 0%; }
+    border: none; }
+  #contact .btn {
+    margin-bottom: 3%; }
+  #contact .btn-default {
+    border: none; }
   #contact textarea {
     resize: none; }
 
 footer {
-  background: #984b43;
-  padding-top: 8%;
-  padding-bottom: 8%;
+  background: #8DAA91;
+  padding-top: 4%;
+  padding-bottom: 4%;
   text-align: center; }
+  footer #email {
+    color: #EEEFE5; }
+  footer ul {
+    margin-top: 4%;
+    display: inline-block;
+    -webkit-padding-start: 0px !important;
+    -moz-padding-start: 0px !important; }
+  footer li {
+    list-style: none;
+    display: inline-block; }
+  footer .socialIcon {
+    width: 50px;
+    height: 50px;
+    margin: 2% 1%; }
 
 /*# sourceMappingURL=styles.css.map */

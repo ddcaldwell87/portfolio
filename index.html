@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
     <!--Google Font-->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 
     <!--Custom-->
     <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -35,7 +35,7 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">My Work</a></li>
+                        <li><a href="#">Portfolio</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
@@ -58,10 +58,11 @@
 
     <!--Portfolio Section-->
     <section id="portfolio">
-        <h1 id="myWork">My Work</h1>
+        <h1>Portfolio</h1>
+        <img src="img/brackets.png" alt="Brackets" class="center-block brackets">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-12 col-md-6">
+                <div class="col-xs-12 col-md-6 redtail">
                     <img src="img/redtail.png" class="img-responsive center-block img-thumbnail" alt="RedTail Outdoors, LLC">
                 </div>
                 <div class="col-xs-12 col-md-6">
@@ -132,24 +133,30 @@
 
     <footer>
         <div class="container">
-            <a href="mailto:ddcaldwell87@gmail.com">ddcaldwell87@gmail.com</a>
-            <img src="img/codepen.png" alt="Codepen logo" class="img-responsive">
-            <img src="img/github.png" alt="Github logo" class="img-responsive">
-            <img src="img/linkedin.png" alt="LinkedIn logo" class="img-responsive">
-            <img src="img/twitter.png" alt="Twitter logo" class="img-responsive">
+            <a href="mailto:ddcaldwell87@gmail.com" id="email">ddcaldwell87@gmail.com</a>
+            <br>
+            <ul>
+                <li><a href="http://codepen.io/david_caldwell/" target="_blank"><img src="img/codepen.png" alt="Codepen logo" class="img-responsive socialIcon"></a></li>
+                <li><a href="https://github.com/ddcaldwell87" target="_blank"><img src="img/github.png" alt="Github logo" class="img-responsive socialIcon"></a></li>
+                <li><a href="https://www.linkedin.com/in/david-caldwell-84825597/" target="_blank"><img src="img/linkedin.png" alt="LinkedIn logo" class="img-responsive socialIcon"></a></li>
+                <li><a href="https://twitter.com/DavidDCaldwell" target="_blank"><img src="img/twitter.png" alt="Twitter logo" class="img-responsive socialIcon"></a></li>
+            </ul>
         </div>
     </footer>
 
 
     <!----------------Javascript------------------>
+
     <!--jQuery (put before Bootstrap)-->
     <script
             src="https://code.jquery.com/jquery-3.2.0.min.js"
             integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I="
             crossorigin="anonymous">
     </script>
+
     <!--Bootstrap-->
     <script src="js/bootstrap.min.js"></script>
+
     <!--Custom-->
     <script src="js/scripts.js"></script>
 </body>

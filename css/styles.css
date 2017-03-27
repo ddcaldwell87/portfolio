@@ -14,6 +14,9 @@ body {
   border: none;
   color: #EEEFE5; }
 
+.btn-primary:hover {
+  background: #728975; }
+
 .btn-primary:active {
   background: #4C5B4E !important;
   color: #EEEFE5 !important; }
@@ -22,8 +25,13 @@ body {
   background: #728975;
   color: #EEEFE5; }
 
+.btn-primary:focus {
+  background: #4C5B4E; }
+
 .navbar a {
   color: #EEEFE5 !important; }
+.navbar a:hover {
+  color: #8DAA91 !important; }
 
 .navbar-default {
   background: #4C5B4E;
@@ -58,6 +66,13 @@ body {
   width: 100px;
   height: 100px;
   color: #4C5B4E; }
+#portfolio .img-container {
+  background: #4C5B4E;
+  border-radius: 4px; }
+  #portfolio .img-container img {
+    opacity: 0.5; }
+  #portfolio .img-container img:hover {
+    opacity: 1; }
 
 .row {
   margin-bottom: 3%; }
@@ -92,7 +107,8 @@ body {
   #contact .btn {
     margin-bottom: 3%; }
   #contact .btn-default {
-    border: none; }
+    border: none;
+    margin-bottom: 3%; }
   #contact textarea {
     resize: none; }
 
@@ -104,16 +120,16 @@ footer {
   footer #email {
     color: #EEEFE5; }
   footer ul {
-    margin-top: 4%;
+    margin-top: 2%;
     display: inline-block;
-    -webkit-padding-start: 0px !important;
-    -moz-padding-start: 0px !important; }
+    -webkit-padding-start: 0 !important;
+    -moz-padding-start: 0 !important; }
   footer li {
     list-style: none;
     display: inline-block; }
   footer .socialIcon {
     width: 50px;
     height: 50px;
-    margin: 2% 1%; }
+    margin: 2% 1% 0 1%; }
 
 /*# sourceMappingURL=styles.css.map */

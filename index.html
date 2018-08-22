@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <title>David Caldwell | Front-End Developer</title>
+    <title>David Caldwell | Junior Web Developer</title>
 
     <!--Bootstrap-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -50,7 +50,7 @@
             <div class="container">
                 <div class="page-header">
                     <h1>David Caldwell</h1>
-                    <h3>Front-End Developer</h3>
+                    <h3>Junior Web Developer</h3>
                 </div>
             </div>
         </div>
@@ -83,7 +83,7 @@
     <!--About me section-->
     <section id="about">
         <div class="container">
-            <img src="img/me.JPG" class="img-responsive img-circle center-block" alt="A picture of me">
+            <img src="img/me.jpeg" class="img-responsive img-circle center-block" alt="A picture of me">
             <h1>About Me</h1>
             <p>
                 Cat ipsum dolor sit amet, catch mouse and gave it as a present run in circles spit up on light gray carpet instead of adjacent linoleum poop on grasses. Lick plastic bags scratch the furniture when in doubt, wash hide when guests come over, for why must they do that. Howl on top of tall thing have my breakfast spaghetti yarn. Meowing non stop for food claws in your leg yet sit and stare for fall asleep on the washing machine. Kitty power! . Howl uncontrollably for no reason flop over, or scamper. Scratch the box. Sleep nap thug cat lick butt and make a weird face.
@@ -110,22 +110,31 @@
                         <h4 class="modal-title" id="myModalLabel">Contact Me</h4>
                     </div>
                     <div class="modal-body">
-                        <form>
+                        <form action="https://formspree.io/ddcaldwell87@gmail.com" method="POST">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Name" required>
+                              <input class="form-control" type="text" placeholder="Your Name" id="name" required="" data-validation-required-message="Please enter your name"
+                                name="name">
                             </div>
+                            <p class="help-block text-danger"></p>
                             <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Email" required>
+                                <input class="form-control" type="email" placeholder="Your Email" id="email" required="" data-validation-required-message="Please enter your email"
+                                name="_replyto">
                             </div>
+                            <p class="help-block text-danger"></p>
                             <div class="form-group">
-                                <textarea  rows="8" class="form-control" placeholder="Message" required></textarea>
+                                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required="" data-validation-required-message="Please leave a message"
+                                name="message"></textarea>
                             </div>
-                        </form>
+                            <p class="help-block text-danger"></p>
+                            <div class="text-center">
+                              <div id="success"></div>
+                            </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i> Close</button>
-                        <button type="button" class="btn btn-primary"><i class="glyphicon glyphicon-send"></i> Send Message</button>
+                        <button type="submit" class="btn btn-primary"><i class="glyphicon glyphicon-send"></i> Send Message</button>
                     </div>
+                </form>
                 </div>
             </div>
         </div>
@@ -139,7 +148,6 @@
                 <li><a href="http://codepen.io/david_caldwell/" target="_blank"><img src="img/codepen.png" alt="Codepen logo" class="img-responsive socialIcon"></a></li>
                 <li><a href="https://github.com/ddcaldwell87" target="_blank"><img src="img/github.png" alt="Github logo" class="img-responsive socialIcon"></a></li>
                 <li><a href="https://www.linkedin.com/in/david-caldwell-84825597/" target="_blank"><img src="img/linkedin.png" alt="LinkedIn logo" class="img-responsive socialIcon"></a></li>
-                <li><a href="https://twitter.com/DavidDCaldwell" target="_blank"><img src="img/twitter.png" alt="Twitter logo" class="img-responsive socialIcon"></a></li>
             </ul>
         </div>
     </footer>

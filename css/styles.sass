@@ -19,6 +19,9 @@ body
   border: none
   color: $four
 
+.btn-primary:hover
+  background: $third
+
 .btn-primary:active
   background: $secondary !important
   color: $four !important
@@ -27,9 +30,14 @@ body
   background: $third
   color: $four
 
+.btn-primary:focus
+  background: $secondary
+
 .navbar
   a
     color: $four !important
+  a:hover
+    color: $primary !important
 
 .navbar-default
   background: $secondary
@@ -65,6 +73,13 @@ body
     width: 100px
     height: 100px
     color: $secondary
+  .img-container
+    background: $secondary
+    border-radius: 4px
+    img
+      opacity: 0.5
+    img:hover
+      opacity: 1
 
 .row
   margin-bottom: 3%
@@ -100,6 +115,7 @@ body
     margin-bottom: 3%
   .btn-default
     border: none
+    margin-bottom: 3%
   textarea
     resize: none
 
@@ -111,14 +127,14 @@ footer
   #email
     color: $four
   ul
-    margin-top: 4%
+    margin-top: 2%
     display: inline-block
-    -webkit-padding-start: 0px !important
-    -moz-padding-start: 0px !important
+    -webkit-padding-start: 0 !important
+    -moz-padding-start: 0 !important
   li
     list-style: none
     display: inline-block
   .socialIcon
     width: 50px
     height: 50px
-    margin: 2% 1%
+    margin: 2% 1% 0 1%

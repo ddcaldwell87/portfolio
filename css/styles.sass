@@ -74,12 +74,24 @@ body
     height: 100px
     color: $secondary
   .img-container
-    background: $secondary
     border-radius: 4px
-    img
-      opacity: 0.5
-    img:hover
-      opacity: 1
+    .image
+      position: relative
+      border-radius: 5px
+      background: $secondary
+      h3
+        position: absolute
+        top: 45%
+        left: 10%
+        display: none
+        color: white
+      a
+        opacity: 1
+      a:hover img
+        opacity: 0.2
+      a:hover h3
+        opacity: 1
+        display: block
 
 .row
   margin-bottom: 3%

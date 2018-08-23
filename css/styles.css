@@ -67,12 +67,24 @@ body {
   height: 100px;
   color: #4C5B4E; }
 #portfolio .img-container {
-  background: #4C5B4E;
   border-radius: 4px; }
-  #portfolio .img-container img {
-    opacity: 0.5; }
-  #portfolio .img-container img:hover {
-    opacity: 1; }
+  #portfolio .img-container .image {
+    position: relative;
+    border-radius: 5px;
+    background: #4C5B4E; }
+    #portfolio .img-container .image h3 {
+      position: absolute;
+      top: 45%;
+      left: 10%;
+      display: none;
+      color: white; }
+    #portfolio .img-container .image a {
+      opacity: 1; }
+    #portfolio .img-container .image a:hover img {
+      opacity: 0.2; }
+    #portfolio .img-container .image a:hover h3 {
+      opacity: 1;
+      display: block; }
 
 .row {
   margin-bottom: 3%; }
